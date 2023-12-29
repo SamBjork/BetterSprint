@@ -17,8 +17,8 @@ namespace BetterSprint.Patches
         static void ModifiedSprintPatch(ref float ___sprintMeter, ref float ___sprintTime, ref bool ___isSprinting)
         {
             float maxSprintMeter = 1f; // Assuming 1 is the max value of sprint meter
-            float sprintRechargeRate = 0.03f; // Increase this value to recharge faster
-            ___sprintTime = 29f; // Increase for longer sprint duration
+            float sprintRechargeRate = 0.07f; // Increase this value to recharge faster
+            ___sprintTime = 31f; // Increase for longer sprint duration
 
             if (___isSprinting)
             {
