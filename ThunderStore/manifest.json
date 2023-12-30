@@ -1,0 +1,9 @@
+{
+    "name": "BetterSprint",
+    "version_number": "1.0.8",
+    "website_url": "https://github.com/SamBjork/BetterSprint",
+    "description": "This mod implements a better sprint. With it you have a bit longer sprint time and a bit quicker stamina recovery.",
+    "dependencies": [
+	  "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
